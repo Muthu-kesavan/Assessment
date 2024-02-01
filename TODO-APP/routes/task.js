@@ -16,7 +16,7 @@ router.post("/update_task", requireAuth,  updateTask)
 
 
 router.delete("/deltask", requireAuth, removeTask)
-router.delete("/delsub_task", requireAuth, removeSubTask)
+router.delete("/del_subtask", requireAuth, removeSubTask)
 
 
 export default router;
