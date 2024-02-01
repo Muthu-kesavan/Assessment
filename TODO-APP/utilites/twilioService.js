@@ -2,8 +2,6 @@ import twilio from "twilio"
 import dotenv from "dotenv"
 dotenv.config()
 
-
-
 class TwilioService {
     
 
